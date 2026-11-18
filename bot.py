@@ -11,7 +11,7 @@ from aiogram.types import (
     Message,
 )
 
-TOKEN = os.getenv("9102657407:AAG9Ibro7GVrJuJlnLZvCzCDkEsvJSoRshg")
+TOKEN = os.getenv("BOT_TOKEN")
 
 logging.basicConfig(level=logging.INFO)
 router = Router()
